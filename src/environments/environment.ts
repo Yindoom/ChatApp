@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyC-nHbA_aA9vaevDNSPmN-877u2rjerblM',
+    authDomain: 'lazy-chat-app.firebaseapp.com',
+    databaseURL: 'https://lazy-chat-app.firebaseio.com',
+    projectId: 'lazy-chat-app',
+    storageBucket: 'lazy-chat-app.appspot.com',
+    messagingSenderId: '756689809713'
+
+  }
 };
 
 /*
